@@ -1,0 +1,4 @@
+const formData {
+    email: "",
+    message: ""
+}
