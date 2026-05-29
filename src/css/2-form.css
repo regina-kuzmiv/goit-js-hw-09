@@ -23,14 +23,21 @@ textarea {
 button {
   font: inherit;
 }
+.feedback-form {
+  margin-top: 20px;
+}
 
 .feedback-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
 
+  border: 1px solid #808080;
+  border-radius: 8px;
+
   max-width: 408px;
   margin: 0 auto;
+  padding: 20px;
   gap: 8px;
 }
 .feedback-form label {
