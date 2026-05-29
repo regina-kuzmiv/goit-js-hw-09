@@ -87,34 +87,7 @@ container.innerHTML = markup;
 
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-new SimpleLightbox('.gallery a', {
+new SimpleLightbox('.js-gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
-
-// container.addEventListener('click', event => {
-//   event.preventDefault();
-
-//   const img = event.target;
-
-//   if (event.target.nodeName !== 'IMG') {
-//     return;
-//   }
-//   const largeImageURL = img.dataset.source;
-//   console.log(largeImageURL);
-
-//   const image = images.find(el => el.original === img.dataset.source);
-//   showModal(image);
-// });
-
-// function showModal({ original, description }) {
-//   const instance = basicLightbox.create(`
-//     <div class="modal">
-//       <img
-//         src="${original}" alt="${description}"
-//       />
-//     </div>
-// `);
-
-//   instance.show(() => console.log('lightbox now visible'));
-// }
