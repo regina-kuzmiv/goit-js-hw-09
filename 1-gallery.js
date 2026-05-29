@@ -6,5 +6,5 @@ import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                
               alt="${a}"
             />
           </a>
-          </li>`}function n(p){return p.map(e).join("")}const c=document.querySelector(".js-gallery"),s=n(t);c.innerHTML=s;new i(".gallery a",{captionsData:"alt",captionDelay:250});
+          </li>`}function n(p){return p.map(e).join("")}const c=document.querySelector(".js-gallery"),s=n(t);c.innerHTML=s;new i(".js-gallery a",{captionsData:"alt",captionDelay:250});
 //# sourceMappingURL=1-gallery.js.map
