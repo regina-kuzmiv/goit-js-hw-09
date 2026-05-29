@@ -35,6 +35,7 @@ form.addEventListener('submit', e => {
     alert('Fill please all fields');
     return;
   }
+  console.log(formData);
 
   localStorage.removeItem(localStorageKey);
 
